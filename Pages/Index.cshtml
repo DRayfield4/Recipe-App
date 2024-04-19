@@ -1,0 +1,58 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Recipe Redux";
+}
+
+<h1>Recipe Redux</h1>
+
+<main>
+    <aside id="ingredients-sidebar">
+        <input type="text" placeholder="Search ingredients" />
+        @foreach (var category in Model.Categories)
+        {
+            <h2 id="category-title">@category.Name</h2>
+            <div id="category-ingredients">
+                @foreach (var ingredientCategory in category.IngredientCategories)
+                {
+                    <button class="ingredient-button" data-id="@ingredientCategory.Ingredient.IngredientId">
+                        @ingredientCategory.Ingredient.Name
+                    </button>
+                }
+            </div>
+        }
+    </aside>
+
+    <section id="recipe-display">
+        <input type="text" placeholder="Search recipes" />
+        <h2>You can make X recipes</h2>
+        <div id="recipes-list">
+            <!-- Add recipes here later -->
+        </div>
+    </section>
+</main>
+
+@section Scripts {
+    <script>
+        document.querySelectorAll('.ingredient-button').forEach(button => {
+            button.addEventListener('click', function() {
+                let ingredientId = this.dataset.id;
+                this.classList.toggle('selected');
+                if (this.classList.contains('selected')) {
+                    addIngredientToPantry(ingredientId);
+                }
+                else {
+                    removeIngredientFromPantry(ingredientId);
+                }
+            })
+        });
+
+        function addIngredientToPantry(ingredientId) {
+            // Implement
+        }
+
+        function removeIngredientFromPantry(ingredientId) {
+            // Implement
+        }
+    </script>
+}

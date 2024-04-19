@@ -1,0 +1,47 @@
+/*Add Youtube link here*/
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+#ingredients-sidebar {
+    float: left;
+    width: 30%;
+    border-right: 2px solid #000000;
+    padding-right: 20px;
+    margin-left: 20px;
+}
+
+#recipe-display {
+    float: right;
+    width: calc(70% - 40px);
+    padding-left: 20px;
+}
+
+.ingredient-button {
+    display: inline-block;
+    margin: 5px;
+    padding: 5px 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+    cursor: pointer;
+}
+
+.category-title {
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    #ingredients-sidebar,
+    #recipe-display {
+        float: none;
+        width: auto;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+.ingredient-button.selected {
+    background-color: #28a745;
+    color: white;
+}
