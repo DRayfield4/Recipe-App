@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gOoDv8/J73go8U0MO+1tbCufP/uRnxfs8ocdBd5mBuZUMzOhnBqmhddpKlz+kGe1x1PmpuNiDE5Op1nSg/YrYg==",
+  "dgSpecHash": "DHEBhjLqw0p/5crkCsB9FtSvnb9/4Ubu9W5+wutnGyqNO3d4i8xqF0EZwkNc6jlEbQuZkqeSrR/bbUhg9Hq2Hg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Rayfi\\OneDrive\\Desktop\\CIS 598\\RecipeRedux\\RecipeRedux\\RecipeRedux.csproj",
+  "projectFilePath": "C:\\Users\\Rayfi\\OneDrive\\Desktop\\CIS 598\\RecipeRedux\\spring-2024-DRayfield4\\RecipeRedux.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Rayfi\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Rayfi\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.29\\microsoft.aspnetcore.cryptography.internal.6.0.29.nupkg.sha512",

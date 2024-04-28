@@ -2460,11 +2460,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Rayfi\\OneDrive\\Desktop\\CIS 598\\RecipeRedux\\RecipeRedux\\RecipeRedux.csproj",
+      "projectUniqueName": "C:\\Users\\Rayfi\\OneDrive\\Desktop\\CIS 598\\RecipeRedux\\spring-2024-DRayfield4\\RecipeRedux.csproj",
       "projectName": "RecipeRedux",
-      "projectPath": "C:\\Users\\Rayfi\\OneDrive\\Desktop\\CIS 598\\RecipeRedux\\RecipeRedux\\RecipeRedux.csproj",
+      "projectPath": "C:\\Users\\Rayfi\\OneDrive\\Desktop\\CIS 598\\RecipeRedux\\spring-2024-DRayfield4\\RecipeRedux.csproj",
       "packagesPath": "C:\\Users\\Rayfi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Rayfi\\OneDrive\\Desktop\\CIS 598\\RecipeRedux\\RecipeRedux\\obj\\",
+      "outputPath": "C:\\Users\\Rayfi\\OneDrive\\Desktop\\CIS 598\\RecipeRedux\\spring-2024-DRayfield4\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
