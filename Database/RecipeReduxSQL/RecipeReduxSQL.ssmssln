@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# SQL Server Management Studio Solution File, Format Version 20.00
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "RecipeReduxSQL", "RecipeReduxSQL\RecipeReduxSQL.ssmssqlproj", "{27BDA12C-FD0E-4D64-92F0-B51CAEFDB2C5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27BDA12C-FD0E-4D64-92F0-B51CAEFDB2C5}.Default|Default.ActiveCfg = Default
+		{34C233FC-7B69-4893-A7FE-A7FBD0028532}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0C5F3F13-715E-41C3-862D-ADB9D1D07D3E}
+	EndGlobalSection
+EndGlobal
